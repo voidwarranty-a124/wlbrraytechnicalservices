@@ -1,0 +1,1544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>WLBR RAY TECHNICAL SERVICES CO. L.L.C | Villa Renovation & Maintenance</title>
+  <meta name="title" content="WLBR RAY TECHNICAL SERVICES CO. L.L.C | Villa Renovation & Maintenance">
+  <meta name="description" content="Premium villa renovations, interior fit-outs, and ongoing technical maintenance. View before-and-after transformations and request a free quote today.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wlbrraytechnicalservices.com/">
+  <meta property="og:title" content="WLBR RAY TECHNICAL SERVICES CO. L.L.C | Villa Renovation & Maintenance">
+  <meta property="og:description" content="Premium villa renovations, interior fit-outs, and ongoing technical maintenance. High-quality craftsmanship with full site oversight.">
+  <meta property="og:image" content="https://wlbrraytechnicalservices.com/images/og-cover.jpg">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://wlbrraytechnicalservices.com/">
+  <meta property="twitter:title" content="WLBR RAY TECHNICAL SERVICES CO. L.L.C | Villa Renovation & Maintenance">
+  <meta property="twitter:description" content="Premium villa renovations, interior fit-outs, and ongoing technical maintenance. High-quality craftsmanship with full site oversight.">
+  <meta property="twitter:image" content="https://wlbrraytechnicalservices.com/images/og-cover.jpg">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "WLBR RAY TECHNICAL SERVICES CO. L.L.C",
+    "image": "https://wlbrraytechnicalservices.com/images/company.jpg",
+    "@id": "https://wlbrraytechnicalservices.com",
+    "url": "https://wlbrraytechnicalservices.com",
+    "telephone": "REPLACE: +971-XX-XXX-XXXX",
+    "email": "REPLACE: info@wlbrraytechnicalservices.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "REPLACE: Your Street Address",
+      "addressLocality": "Dubai",
+      "addressRegion": "Dubai",
+      "postalCode": "REPLACE: 00000",
+      "addressCountry": "AE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.2048,
+      "longitude": 55.2708
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    "priceRange": "$$"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       CSS VARIABLES & THEME SETUP
+       ========================================================================== */
+    :root {
+      --bg-dark: #0a0d12;
+      --bg-card: #121824;
+      --bg-card-hover: #182030;
+      --accent-gold: #cfa85f;
+      --accent-gold-light: #e5c889;
+      --accent-gold-glow: rgba(207, 168, 95, 0.25);
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-color-glow: rgba(207, 168, 95, 0.4);
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 20px;
+      --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      --font-heading: 'Cinzel', serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    button, input, select, textarea {
+      font-family: inherit;
+      font-size: inherit;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .section-title-wrap {
+      text-align: center;
+      margin-bottom: 3.5rem;
+    }
+
+    .section-subtitle {
+      color: var(--accent-gold);
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 2.5px;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: clamp(2rem, 4vw, 2.75rem);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    /* ==========================================================================
+       INTENT MODAL OVERLAY
+       ========================================================================== */
+    .intent-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 7, 10, 0.85);
+      backdrop-filter: blur(8px);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.4s ease;
+    }
+
+    .intent-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .intent-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color-glow);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 30px var(--accent-gold-glow);
+      border-radius: var(--radius-lg);
+      padding: 3rem 2.5rem;
+      max-width: 540px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      transform: translateY(20px) scale(0.95);
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .intent-overlay.active .intent-card {
+      transform: translateY(0) scale(1);
+    }
+
+    .intent-title {
+      font-family: var(--font-heading);
+      font-size: 1.8rem;
+      margin-bottom: 0.75rem;
+      color: #fff;
+    }
+
+    .intent-desc {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+
+    .intent-options {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .intent-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.25rem 1.5rem;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      color: var(--text-main);
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      text-align: left;
+    }
+
+    .intent-btn:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent-gold);
+      transform: translateX(4px);
+    }
+
+    .intent-btn span.label {
+      display: block;
+      font-size: 1.05rem;
+    }
+
+    .intent-btn span.sub {
+      display: block;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 400;
+      margin-top: 2px;
+    }
+
+    .intent-btn svg {
+      width: 20px;
+      height: 20px;
+      fill: none;
+      stroke: var(--accent-gold);
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      flex-shrink: 0;
+    }
+
+    .intent-skip {
+      margin-top: 1.5rem;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      cursor: pointer;
+      text-decoration: underline;
+      transition: var(--transition);
+    }
+
+    .intent-skip:hover {
+      color: var(--text-main);
+    }
+
+    /* ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      padding: 1.25rem 0;
+      transition: var(--transition);
+    }
+
+    .header.scrolled {
+      background: rgba(10, 13, 18, 0.9);
+      backdrop-filter: blur(12px);
+      padding: 0.85rem 0;
+      border-bottom: 1px solid var(--border-color);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    .nav-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: 1px;
+      color: #fff;
+    }
+
+    .brand-logo span.highlight {
+      color: var(--accent-gold);
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-link {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      transition: var(--transition);
+      position: relative;
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: #fff;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--accent-gold);
+      transition: var(--transition);
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: var(--transition);
+      border: 1px solid transparent;
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, var(--accent-gold) 0%, #a8833d 100%);
+      color: #000;
+      box-shadow: 0 4px 15px var(--accent-gold-glow);
+    }
+
+    .btn-gold:hover {
+      background: linear-gradient(135deg, var(--accent-gold-light) 0%, var(--accent-gold) 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(207, 168, 95, 0.4);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border-color: var(--border-color);
+      color: var(--text-main);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--accent-gold);
+      color: var(--accent-gold);
+      background: rgba(207, 168, 95, 0.05);
+    }
+
+    .hamburger {
+      display: none;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    /* ==========================================================================
+       HERO SECTION
+       ========================================================================== */
+    .hero {
+      padding: 10rem 0 6rem;
+      position: relative;
+      background: radial-gradient(circle at 50% 20%, rgba(207, 168, 95, 0.08) 0%, rgba(10, 13, 18, 0) 70%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.35rem 0.85rem;
+      background: rgba(207, 168, 95, 0.1);
+      border: 1px solid var(--border-color-glow);
+      border-radius: 50px;
+      color: var(--accent-gold);
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-title {
+      font-family: var(--font-heading);
+      font-size: clamp(2.5rem, 5vw, 3.8rem);
+      line-height: 1.15;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-desc {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      margin-bottom: 2.5rem;
+      max-width: 540px;
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-top: 3.5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .stat-number {
+      font-family: var(--font-heading);
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--accent-gold);
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .hero-card-preview {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    .hero-card-preview img {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+    }
+
+    .hero-badge {
+      position: absolute;
+      bottom: 1.5rem;
+      left: 1.5rem;
+      right: 1.5rem;
+      background: rgba(18, 24, 36, 0.85);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* ==========================================================================
+       BEFORE / AFTER COMPARISON SECTION
+       ========================================================================== */
+    .projects-section {
+      padding: 6rem 0;
+      background: rgba(255, 255, 255, 0.01);
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .filter-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-bottom: 3rem;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      padding: 0.6rem 1.25rem;
+      border-radius: 50px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .tab-btn:hover, .tab-btn.active {
+      background: var(--accent-gold);
+      color: #000;
+      border-color: var(--accent-gold);
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 2rem;
+    }
+
+    .project-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      transition: var(--transition);
+    }
+
+    .project-card:hover {
+      border-color: var(--border-color-glow);
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    }
+
+    .compare-container {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 4/3;
+      overflow: hidden;
+      user-select: none;
+    }
+
+    .compare-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .compare-overlay {
+      position: absolute;
+      inset: 0 0 0 0;
+      width: 50%;
+      overflow: hidden;
+      z-index: 2;
+      border-right: 2px solid var(--accent-gold);
+    }
+
+    .compare-overlay img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      max-width: none;
+    }
+
+    .compare-handle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--accent-gold);
+      color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      z-index: 3;
+      pointer-events: none;
+    }
+
+    .compare-range {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: ew-resize;
+      z-index: 4;
+    }
+
+    .badge-label {
+      position: absolute;
+      top: 1rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      z-index: 3;
+      pointer-events: none;
+    }
+
+    .badge-before {
+      left: 1rem;
+      background: rgba(0,0,0,0.7);
+      color: #fff;
+    }
+
+    .badge-after {
+      right: 1rem;
+      background: var(--accent-gold);
+      color: #000;
+    }
+
+    .project-info {
+      padding: 1.25rem;
+    }
+
+    .project-title {
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .project-meta {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* ==========================================================================
+       SERVICES SECTION
+       ========================================================================== */
+    .services-section {
+      padding: 6rem 0;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .service-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 2rem;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+      opacity: 0;
+      transition: var(--transition);
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(207, 168, 95, 0.3);
+      background: var(--bg-card-hover);
+    }
+
+    .service-card:hover::before {
+      opacity: 1;
+    }
+
+    .service-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: var(--radius-sm);
+      background: rgba(207, 168, 95, 0.1);
+      color: var(--accent-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+    }
+
+    .service-title {
+      font-family: var(--font-heading);
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .service-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* ==========================================================================
+       PROCESS / OVERSIGHT SECTION
+       ========================================================================== */
+    .process-section {
+      padding: 6rem 0;
+      background: var(--bg-card);
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      position: relative;
+    }
+
+    .step-card {
+      position: relative;
+      z-index: 1;
+    }
+
+    .step-num {
+      font-family: var(--font-heading);
+      font-size: 3rem;
+      font-weight: 700;
+      color: rgba(207, 168, 95, 0.2);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+
+    .step-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .step-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* ==========================================================================
+       CONTACT / REQUEST SECTION
+       ========================================================================== */
+    .contact-section {
+      padding: 6rem 0;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 3.5rem;
+    }
+
+    .contact-info-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .info-group {
+      margin-bottom: 2rem;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .info-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-sm);
+      background: rgba(207, 168, 95, 0.1);
+      color: var(--accent-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .info-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .info-val {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .form-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .form-group.full {
+      grid-column: span 2;
+    }
+
+    .form-label {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    .form-input, .form-select, .form-textarea {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 0.75rem 1rem;
+      color: #fff;
+      outline: none;
+      transition: var(--transition);
+    }
+
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      border-color: var(--accent-gold);
+      background: rgba(207, 168, 95, 0.02);
+      box-shadow: 0 0 10px var(--accent-gold-glow);
+    }
+
+    .form-select option {
+      background: var(--bg-card);
+      color: var(--text-main);
+    }
+
+    .form-textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .form-alert {
+      padding: 1rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+      margin-top: 1rem;
+    }
+
+    .form-alert.success {
+      background: rgba(34, 197, 94, 0.1);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      color: #4ade80;
+    }
+
+    .form-alert.error {
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: #f87171;
+    }
+
+    /* ==========================================================================
+       FOOTER
+       ========================================================================== */
+    .footer {
+      border-top: 1px solid var(--border-color);
+      padding: 3rem 0 1.5rem;
+      background: #07090d;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .footer-grid {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .footer-copy {
+      text-align: center;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    /* ==========================================================================
+       RESPONSIVE BREAKPOINTS
+       ========================================================================== */
+    @media (max-width: 992px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero-card-preview { display: none; }
+      .contact-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 300px;
+        height: 100vh;
+        background: var(--bg-card);
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        transition: var(--transition);
+        box-shadow: -10px 0 30px rgba(0,0,0,0.8);
+      }
+      .nav-menu.open { right: 0; }
+      .hamburger { display: block; }
+      .form-grid { grid-template-columns: 1fr; }
+      .form-group.full { grid-column: span 1; }
+    }
+
+    /* Utility classes for reveal on scroll */
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .reveal.in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="intent-overlay" id="intentOverlay" role="dialog" aria-modal="true" aria-labelledby="intentTitle">
+    <div class="intent-card">
+      <h2 class="intent-title" id="intentTitle">Welcome to WLBR RAY</h2>
+      <p class="intent-desc">How can our technical team assist your property today?</p>
+
+      <div class="intent-options">
+        <button class="intent-btn" onclick="selectIntent('Renovation')">
+          <div>
+            <span class="label">Villa / Property Renovation</span>
+            <span class="sub">Full remodels, fit-outs, and spatial upgrades</span>
+          </div>
+          <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+
+        <button class="intent-btn" onclick="selectIntent('General Maintenance')">
+          <div>
+            <span class="label">General Technical Maintenance</span>
+            <span class="sub">MEP, HVAC, plumbing, electrical, or structural fixes</span>
+          </div>
+          <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+
+      <button class="intent-skip" onclick="closeIntentOverlay()">Just browsing the website</button>
+    </div>
+  </div>
+
+  <header class="header" id="siteHeader">
+    <div class="container nav-wrapper">
+      <a href="#" class="brand-logo">
+        <span>WLBR RAY</span>
+        <span class="highlight">TECHNICAL</span>
+      </a>
+
+      <ul class="nav-menu" id="primaryNav">
+        <li><a href="#projects" class="nav-link">Transformations</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#process" class="nav-link">Our Oversight</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="btn btn-gold">Get a Quote</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">
+        &#9776;
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <span class="hero-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+          Licensed Technical Services
+        </span>
+        <h1 class="hero-title">Precision Villa Renovation & Master Maintenance</h1>
+        <p class="hero-desc">
+          Delivering end-to-end technical execution, architectural upgrades, and structural maintenance. Guided by full site oversight and exceptional engineering quality.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-gold">Request Site Survey</a>
+          <a href="#projects" class="btn btn-outline">View Recent Work</a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Site Oversight</span>
+          </div>
+          <div>
+            <span class="stat-number">300+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div>
+            <span class="stat-number">24/7</span>
+            <span class="stat-label">Technical Support</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card-preview reveal">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" alt="Luxury Villa Exterior Renovation">
+        <div class="hero-badge">
+          <div>
+            <div style="font-size:0.8rem; color:var(--text-muted);">Featured Renovation</div>
+            <div style="font-weight:600; font-family:var(--font-heading);">Emirates Hills Villa Upgrade</div>
+          </div>
+          <a href="#projects" class="btn btn-outline" style="padding:0.4rem 0.8rem; font-size:0.75rem;">View</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <div class="section-title-wrap reveal">
+        <span class="section-subtitle">Real Results</span>
+        <h2 class="section-title">Transformation Gallery</h2>
+      </div>
+
+      <div class="filter-tabs reveal">
+        <button class="tab-btn active" onclick="filterProjects('all', this)">All Work</button>
+        <button class="tab-btn" onclick="filterProjects('Renovation', this)">Renovation</button>
+        <button class="tab-btn" onclick="filterProjects('Maintenance', this)">Maintenance</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        </div>
+    </div>
+  </section>
+
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-title-wrap reveal">
+        <span class="section-subtitle">Core Expertise</span>
+        <h2 class="section-title">Technical Capabilities</h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3 class="service-title">Full Villa Remodeling</h3>
+          <p class="service-desc">Complete spatial reconfiguration, interior extensions, bathroom/kitchen overhauls, and structural modifications.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3 class="service-title">MEP Technical Execution</h3>
+          <p class="service-desc">Comprehensive mechanical, electrical, and plumbing engineering designed to meet precise local standards and safety codes.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="service-title">HVAC & Climate Control</h3>
+          <p class="service-desc">Advanced duct cleaning, chiller coil maintenance, smart thermostat integrations, and complete AC system retrofits.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3 class="service-title">Custom Interior Fit-Outs</h3>
+          <p class="service-desc">Bespoke joinery, architectural ceiling lighting, luxury flooring, and custom cabinetry crafted to perfection.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="section-title-wrap reveal">
+        <span class="section-subtitle">Uncompromising Quality</span>
+        <h2 class="section-title">Our Technical Oversight Standard</h2>
+      </div>
+
+      <div class="process-steps">
+        <div class="step-card reveal">
+          <div class="step-num">01</div>
+          <h3 class="step-title">Detailed Site Audit</h3>
+          <p class="step-desc">Rigorous preliminary assessment of existing MEP systems, structural loads, and layout feasibility.</p>
+        </div>
+
+        <div class="step-card reveal">
+          <div class="step-num">02</div>
+          <h3 class="step-title">Clear Project Scope</h3>
+          <p class="step-desc">Itemized technical proposals with transparent pricing, materials breakdown, and strict milestone schedules.</p>
+        </div>
+
+        <div class="step-card reveal">
+          <div class="step-num">03</div>
+          <h3 class="step-title">Supervised Execution</h3>
+          <p class="step-desc">Dedicated site engineers oversee every installation to ensure technical compliance and fine finish details.</p>
+        </div>
+
+        <div class="step-card reveal">
+          <div class="step-num">04</div>
+          <h3 class="step-title">Testing & Sign-Off</h3>
+          <p class="step-desc">Comprehensive system testing, snagging verification, and client walkthrough prior to final hand-over.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info-card reveal">
+          <div>
+            <span class="section-subtitle">Get In Touch</span>
+            <h2 class="section-title" style="margin-bottom: 1.5rem;">Let's Discuss Your Property</h2>
+            <p style="color: var(--text-muted); margin-bottom: 2rem;">
+              Whether you require a full villa makeover or immediate maintenance support, our engineering team is ready.
+            </p>
+
+            <div class="info-group">
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <div class="info-label">Direct Phone</div>
+                  <div class="info-val">(000) 000-0000</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <div class="info-label">Email Support</div>
+                  <div class="info-val">info@yourcompany.com</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="info-label">Office Location</div>
+                  <div class="info-val">123 Example St, Business Bay, Dubai</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="font-size:0.8rem; color:var(--text-muted); border-top:1px solid var(--border-color); padding-top:1rem;">
+            Response time: Under 24 hours for general inquiries.
+          </div>
+        </div>
+
+        <div class="form-card reveal">
+          <form id="quoteForm">
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-label" for="fName">Your Name *</label>
+                <input type="text" id="fName" name="name" class="form-input" required placeholder="John Doe">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="fPhone">Phone Number *</label>
+                <input type="tel" id="fPhone" name="phone" class="form-input" required placeholder="+971 50 000 0000">
+              </div>
+
+              <div class="form-group full">
+                <label class="form-label" for="fEmail">Email Address *</label>
+                <input type="email" id="fEmail" name="email" class="form-input" required placeholder="john@example.com">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="fType">Project Category *</label>
+                <select id="fType" name="project_type" class="form-select" required>
+                  <option value="Renovation">Villa Renovation</option>
+                  <option value="General Maintenance">General Maintenance</option>
+                  <option value="MEP Work">MEP Engineering</option>
+                  <option value="Interior Fit-Out">Interior Fit-Out</option>
+                </select>
+              </div>
+
+              <div class="form-group" id="maintTypeField" hidden>
+                <label class="form-label" for="fMaintType">Maintenance Service</label>
+                <select id="fMaintType" name="maintenance_type" class="form-select">
+                  <option value="AC & HVAC">AC & HVAC Technical</option>
+                  <option value="Plumbing">Plumbing Works</option>
+                  <option value="Electrical">Electrical Systems</option>
+                  <option value="Carpentry & Painting">Carpentry & Painting</option>
+                  <option value="Other">Other Repairs</option>
+                </select>
+              </div>
+
+              <div class="form-group full">
+                <label class="form-label" for="fUnit">Property / Community Name</label>
+                <input type="text" id="fUnit" name="property_unit" class="form-input" placeholder="e.g. Meadows Villa 12 or Downtown Tower">
+              </div>
+
+              <div class="form-group full">
+                <label class="form-label" for="fNotes">Scope & Requirements</label>
+                <textarea id="fNotes" name="message" class="form-textarea" placeholder="Provide details about your project or repair requirements..."></textarea>
+              </div>
+            </div>
+
+            <button type="submit" id="quoteSubmitBtn" class="btn btn-gold" style="width:100%; margin-top:1.5rem;">Send Request</button>
+
+            <div id="formSuccess" class="form-alert success" hidden>
+              Thank you! Your request has been sent. Our team will contact you shortly.
+            </div>
+            <div id="formError" class="form-alert error" hidden>
+              Something went wrong. Please try again or call us directly.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="brand-logo">
+          <span>WLBR RAY</span>
+          <span class="highlight">TECHNICAL</span>
+        </div>
+
+        <p>Licensed Villa Renovation & Technical Maintenance Specialist.</p>
+      </div>
+
+      <div class="footer-copy">
+        &copy; <span id="currentYear"></span> WLBR RAY TECHNICAL SERVICES CO. L.L.C. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* ==========================================================================
+       ADMIN ENDPOINTS & SYSTEM LOGGING
+       ========================================================================== */
+    const INQUIRY_ENDPOINT = "/api/inquiry";
+    const ERROR_REPORT_ENDPOINT = "/api/report-error";
+
+    /* Technical Error Reporting Helper */
+    function reportTechnicalIssue(details) {
+      fetch(ERROR_REPORT_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          page: window.location.href,
+          message: details.message || '',
+          source: details.source || '',
+          line: details.line || '',
+          userAgent: navigator.userAgent
+        })
+      }).catch(function() { /* Prevent recursion if logging endpoint fails */ });
+    }
+
+    /* Global Runtime Error Listeners */
+    window.addEventListener('error', function(e) {
+      reportTechnicalIssue({ message: e.message, source: e.filename, line: e.lineno });
+    });
+    window.addEventListener('unhandledrejection', function(e) {
+      reportTechnicalIssue({ message: 'Unhandled promise rejection: ' + e.reason });
+    });
+
+    /* Set Footer Dynamic Year */
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    /* ==========================================================================
+       INTENT MODAL SELECTION
+       ========================================================================== */
+    const intentOverlay = document.getElementById('intentOverlay');
+
+    function closeIntentOverlay() {
+      intentOverlay.classList.remove('active');
+    }
+
+    function selectIntent(category) {
+      closeIntentOverlay();
+      const typeSelect = document.getElementById('fType');
+      if (typeSelect) {
+        typeSelect.value = category;
+        typeSelect.dispatchEvent(new Event('change'));
+      }
+      const contactSec = document.getElementById('contact');
+      if (contactSec) {
+        contactSec.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // Show intent modal after short page load delay
+    window.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        intentOverlay.classList.add('active');
+      }, 1000);
+    });
+
+    /* ==========================================================================
+       PROJECTS DATA & BEFORE/AFTER RENDERING
+       ========================================================================== */
+    const projectsData = [
+      {
+        title: "Modern Villa Living Space",
+        tag: "Renovation",
+        location: "Jumeirah Golf Estates",
+        before: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+        after: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        title: "Luxury Kitchen Transformation",
+        tag: "Renovation",
+        location: "The Meadows",
+        before: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+        after: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        title: "HVAC & Duct Restructuring",
+        tag: "Maintenance",
+        location: "Arabian Ranches",
+        before: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+        after: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80"
+      }
+    ];
+
+    function renderProjects(filter) {
+      const container = document.getElementById('projectsGrid');
+      container.innerHTML = '';
+
+      const filtered = (filter === 'all') 
+        ? projectsData 
+        : projectsData.filter(p => p.tag === filter);
+
+      filtered.forEach(p => {
+        const card = document.createElement('div');
+        card.className = 'project-card reveal in';
+
+        card.innerHTML = `
+          <div class="compare-container">
+            <span class="badge-label badge-before">Before</span>
+            <span class="badge-label badge-after">After</span>
+            <img src="${p.after}" class="compare-img" alt="${p.title} After">
+            <div class="compare-overlay">
+              <img src="${p.before}" alt="${p.title} Before">
+            </div>
+            <div class="compare-handle">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>
+            </div>
+            <input type="range" min="0" max="100" value="50" class="compare-range" aria-label="Before and after image comparison slider">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">${p.title}</h3>
+            <div class="project-meta">
+              <span>${p.location}</span>
+              <span style="color:var(--accent-gold); font-weight:600;">${p.tag}</span>
+            </div>
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+
+      initCompares();
+    }
+
+    function initCompares() {
+      const cardEls = document.querySelectorAll('.project-card');
+      cardEls.forEach(card => {
+        const range = card.querySelector('.compare-range');
+        const overlay = card.querySelector('.compare-overlay');
+        const handle = card.querySelector('.compare-handle');
+        const beforeImg = overlay.querySelector('img');
+
+        function resizeBeforeImg() {
+          beforeImg.style.width = card.querySelector('.compare-container').offsetWidth + 'px';
+        }
+        resizeBeforeImg();
+        window.addEventListener('resize', resizeBeforeImg);
+
+        range.addEventListener('input', function() {
+          const val = range.value;
+          overlay.style.width = val + '%';
+          handle.style.left = val + '%';
+        });
+      });
+    }
+
+    function filterProjects(tag, btnEl) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btnEl.classList.add('active');
+      renderProjects(tag);
+    }
+
+    renderProjects('all');
+
+    /* ==========================================================================
+       CONTACT FORM SUBMISSION HANDLER
+       ========================================================================== */
+    const quoteForm = document.getElementById('quoteForm');
+    const maintTypeField = document.getElementById('maintTypeField');
+    const fType = document.getElementById('fType');
+    const formSuccess = document.getElementById('formSuccess');
+    const formError = document.getElementById('formError');
+    const submitBtn = document.getElementById('quoteSubmitBtn');
+
+    function syncMaintenanceField() {
+      maintTypeField.hidden = (fType.value !== 'General Maintenance');
+    }
+    fType.addEventListener('change', syncMaintenanceField);
+    syncMaintenanceField();
+
+    quoteForm.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      formSuccess.hidden = true;
+      formError.hidden = true;
+
+      if (!quoteForm.checkValidity()) {
+        quoteForm.reportValidity();
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+
+      const formData = new FormData(quoteForm);
+      const payload = Object.fromEntries(formData.entries());
+
+      try {
+        const response = await fetch(INQUIRY_ENDPOINT, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (response.ok) {
+          quoteForm.reset();
+          syncMaintenanceField();
+          formSuccess.hidden = false;
+        } else {
+          formError.hidden = false;
+        }
+      } catch (err) {
+        formError.hidden = false;
+        reportTechnicalIssue({ message: 'Form submission error: ' + err.message });
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Request';
+      }
+    });
+
+    /* ==========================================================================
+       SCROLL & NAV ANIMATIONS
+       ========================================================================== */
+    const siteHeader = document.getElementById('siteHeader');
+    window.addEventListener('scroll', function() {
+      siteHeader.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const primaryNav = document.getElementById('primaryNav');
+    hamburgerBtn.addEventListener('click', function() {
+      primaryNav.classList.toggle('open');
+    });
+
+    primaryNav.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => primaryNav.classList.remove('open'));
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
